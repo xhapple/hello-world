@@ -1,0 +1,11 @@
+kquickpop.exe
+
+C:\Program Files (x86)\MyDrivers\DriverGenius\kquickpop.exe
+
+system用户登陆
+以管理员身份运行cmd，按顺序输入第一条指令
+sc Create SuperCMD binpath= "cmd /K start" type= own type= interact
+net start SuperCMD
+按回车输入第二条指令
+net start SuperCMD
+选择查看消息进入，输入explorer显示桌面，默认不显示，可以打开开始菜单看到已经进入system用户，按立即返回回到正常页面
